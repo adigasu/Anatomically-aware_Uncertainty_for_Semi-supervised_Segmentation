@@ -1,4 +1,4 @@
-#  <p align="center"> _Anatomically-aware_Uncertainty_for_Semi-supervised_Image_Segmentation_
+#  <p align="center"> _Anatomically-aware Uncertainty for Semi-supervised Image_Segmentation_
 Anatomically-aware Uncertainty for Semi-supervised Image Segmentation
 
 **TL;DR:** A novel way to estimate the uncertainty maps using anatomical representation prior in order to guide the segmentation model in a low-data regime.
