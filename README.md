@@ -1,7 +1,8 @@
-#  <p align="center"> _Anatomically-aware Uncertainty for Semi-supervised Image_Segmentation_
-Anatomically-aware Uncertainty for Semi-supervised Image Segmentation
+#  <p align="center"> _Anatomically-aware Uncertainty for Semi-supervised Image Segmentation_
 
-**TL;DR:** A novel way to estimate the uncertainty maps using anatomical representation prior in order to guide the segmentation model in a low-data regime.
+**TL;DR:** A novel way to estimate the uncertainty maps using anatomically-aware representation prior in order to guide the segmentation model in a low-data regime.
+
+<p align="center">  <img src = 'Files/Anatomical_rep_Arch.png' height = '300px'>
 
 **Keywords:** Semi-Supervised learning, Segmentation, Labeling Representation, Anatomical prior and Uncertainty
 
