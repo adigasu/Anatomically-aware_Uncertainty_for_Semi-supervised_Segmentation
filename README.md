@@ -4,7 +4,7 @@
 
 <p align="center">  <img src = 'Files/Anatomical_rep_Arch.png' height = '300px'>
 
-**Keywords:** Semi-Supervised learning, Segmentation, Labeling Representation, Anatomical prior and Uncertainty
+**Keywords:** Semi-Supervised learning; Anatomically-aware Representation; Labeling Representation; Image Segmentation; Uncertainty.
 
 
 ### Dependencies
@@ -42,7 +42,7 @@ Please cite our paper if you find this code or our work useful for your research
 }
 ```
 
-### Reference
+### References
 - Uncertainty-aware Self-ensembling Model for Semi-supervised (UAMT) [[paper](https://arxiv.org/abs/1907.07034)][[code](https://github.com/yulequan/UA-MT)]
 - Semi-supervised Learning for Medical Image Segmentation (SSL4MIS) [[paper](https://arxiv.org/abs/2012.07042)][[code](https://github.com/HiLab-git/SSL4MIS/tree/master/code)]
 
