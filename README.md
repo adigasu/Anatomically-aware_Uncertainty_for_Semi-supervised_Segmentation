@@ -36,7 +36,7 @@ Please cite our paper if you find this code or our work useful for your research
 @article{adiga2023anatomically,
   title={Anatomically-aware Uncertainty for Semi-supervised Image Segmentation},
   author={Adiga V, Sukesh and Dolz, Jose and Lombaert, Herve},
-  journal={Medical Image Analysis},
+  journal={Medical Image Analysis (MedIA)},
   year={2023}
 }
 ```
@@ -44,7 +44,7 @@ Please cite our paper if you find this code or our work useful for your research
 @article{adiga2022leveraging,
   title={Leveraging Labeling Representations in Uncertainty-based Semi-supervised Segmentation},
   author={Adiga V, Sukesh and Dolz, Jose and Lombaert, Herve},
-  journal={MICCAI},
+  journal={Medical Image Computing and Computer Assisted Intervention (MICCAI)},
   year={2022}
 }
 ```
