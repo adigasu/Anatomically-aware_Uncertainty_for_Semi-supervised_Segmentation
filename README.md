@@ -1,4 +1,5 @@
 #  <p align="center"> _Anatomically-aware Uncertainty for Semi-supervised Image Segmentation_
+## <p align="center"> _MedIA 2024_ [[paper](https://arxiv.org/pdf/2310.16099.pdf)], _MICCAI 2022_  [[paper](https://arxiv.org/pdf/2203.05682.pdf)] [[presentation](https://github.com/adigasu/Labeling_Representations/blob/main/Files/Labeling%20representation.pdf)] [[poster](https://github.com/adigasu/Labeling_Representations/blob/main/Files/MICCAI2022_poster.pdf)]
 
 **TL;DR:** A novel way to estimate the uncertainty maps using anatomically-aware representation prior in order to guide the segmentation model in a low-data regime.
 
@@ -37,7 +38,7 @@ Please cite our paper if you find this code or our work useful for your research
   title={Anatomically-aware Uncertainty for Semi-supervised Image Segmentation},
   author={Adiga V, Sukesh and Dolz, Jose and Lombaert, Herve},
   journal={Medical Image Analysis (MedIA)},
-  year={2023}
+  year={2024}
 }
 ```
 ```
@@ -55,7 +56,7 @@ Please cite our paper if you find this code or our work useful for your research
 
 #### Any questions?
 ```
-For more informations, please contact Sukesh Adiga (sukesh.adiga@gmail.com).
+For more information, please get in touch with Sukesh Adiga (sukesh.adiga@gmail.com).
 ```
 
 #### License
