@@ -36,8 +36,9 @@ python train_Abdomen_meanteacher_DAE_certainty.py --exp L10_r1 --nb_labels 26 --
 ```
 
 ### Testing
+Testing segmentation results 
 ```
-Coming soon...
+python test_Abdomen.py --model 'L10_r1/best_model.pth'
 ```
 
 ### Citation
