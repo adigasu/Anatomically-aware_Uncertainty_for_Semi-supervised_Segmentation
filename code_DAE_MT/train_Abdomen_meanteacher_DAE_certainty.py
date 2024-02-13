@@ -49,7 +49,7 @@ args = parser.parse_args()
 
 train_data_path = args.root_path
 snapshot_path = "../DAE_MT_models/" + args.exp + "/"
-snapshot_path_AE = "../DAE_models/" + args.model_AE
+snapshot_path_DAE = "../DAE_models/" + args.model_DAE
 
 os.environ['CUDA_VISIBLE_DEVICES'] = args.gpu
 batch_size = args.batch_size * len(args.gpu.split(','))
@@ -108,7 +108,7 @@ if __name__ == "__main__":
 
 
     def load_DAE_model(detach=True):
-        save_mode_path = os.path.join(snapshot_path_AE)
+        save_mode_path = os.path.join(snapshot_path_DAE)
         model = VNetDAE(n_channels=1, n_classes=num_classes, normalization='batchnorm', has_dropout=False, input_size=patch_size, is_LS_noise=is_LS_noise, emb_dim=emb_dim).cuda()
         if detach:
             for param in model.parameters():
