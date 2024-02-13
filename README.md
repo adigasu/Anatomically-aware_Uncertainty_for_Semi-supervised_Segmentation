@@ -21,9 +21,18 @@ This code depends on the following libraries:
 - [FLARE, 2021](https://flare.grand-challenge.org/FLARE21/)
 
 ### Training
-The model can be trained using the below command:  
+Training of our approach involves two steps:
+
+1) DAE (Denoising Autoencoder) model training with available labels
 ```
-Coming soon...
+cd code_DAE
+python train_DAE.py --exp DAE_L10 --nb_labels 26 --total_labels 260 --emb_dim 512
+```
+
+2) Segmentation model training with DAE under limited labels 
+```
+cd code_DAE
+python train_Abdomen_meanteacher_DAE_certainty.py --exp L10_r1 --nb_labels 26 --total_labels 260 --model_DAE 'DAE_L10/model.pth' --emb_dim 512
 ```
 
 ### Testing
