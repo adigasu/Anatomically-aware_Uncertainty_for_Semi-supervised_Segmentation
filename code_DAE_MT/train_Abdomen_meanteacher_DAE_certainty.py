@@ -36,7 +36,7 @@ parser.add_argument('--num_classes', type=int,  default=5, help='Number of class
 parser.add_argument('--gpu', type=str,  default='0', help='GPU to use')
 parser.add_argument('--nb_labels', type=int,  default=26, help='No. of labeled samples')
 parser.add_argument('--total_labels', type=int,  default=260, help='Total no. of labeled samples')
-parser.add_argument('--model_AE', type=str,  default='DAE_L10/best_model.pth', help='DAE model path')
+parser.add_argument('--model_DAE', type=str,  default='DAE_L10/best_model.pth', help='DAE model path')
 parser.add_argument('--emb_dim', type=int,  default=512, help='emb_dim')
 parser.add_argument('--is_LS_noise', type=bool,  default=True, help='enable or disable LS (label space) noise in DAE')
 parser.add_argument('--gamma', type=float,  default=1.0, help='uncertainty weight')
