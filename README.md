@@ -1,7 +1,7 @@
 #  <p align="center"> _Anatomically-aware Uncertainty for Semi-supervised Image Segmentation_
 ## <p align="center"> _MedIA 2024_ [[paper](https://arxiv.org/pdf/2310.16099.pdf)], _MICCAI 2022_  [[paper](https://arxiv.org/pdf/2203.05682.pdf)] [[presentation](https://github.com/adigasu/Labeling_Representations/blob/main/Files/Labeling%20representation.pdf)] [[poster](https://github.com/adigasu/Labeling_Representations/blob/main/Files/MICCAI2022_poster.pdf)]
 
-**TL;DR:** A novel way to estimate the uncertainty maps using anatomically-aware representation prior in order to guide the segmentation model in a low-data regime.
+**TL;DR:** A novel uncertainty estimation using anatomically-aware representation to guide the segmentation model in a low-data regime.
 
 <p align="center">  <img src = 'Files/Anatomical_rep_Arch.png' height = '300px'>
 
